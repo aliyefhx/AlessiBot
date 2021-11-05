@@ -11,7 +11,7 @@
     "telegram-bot",
     "pyrogram"
     ],
-    "repository": "https://github.com/TheHamkerCat/WilliamButcherBot",
+    "repository": "https://dashboard.heroku.com/new?template=https://github.com/aliyefhx/AlessiBot",
     "stack": "container",
     "env": {
         "BOT_TOKEN": {
