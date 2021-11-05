@@ -108,22 +108,22 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 text="Commands ❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="Sahib GitHub 🛠",
+                url="https://github.com/aliyefhx",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 🖥",
+                text="Sistemi başlad  🖥",
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
+                text="Sahib 👨", url="http://t.me/aliyefh_sos"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Add Me To Your Group 🎉",
+                text="Mğni bir Qrupa əlavə et",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
@@ -141,20 +141,20 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Help ❓",
+                text="Kömək ❓",
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="Sahib GitHub 🛠",
+                url="https://github.com/aliyefhx",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 💻",
+                text="Sistemi başlad 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(text="Sahib 👨", url="t.me/aliyefh_sos"),
         ],
     ]
 )
